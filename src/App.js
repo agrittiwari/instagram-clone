@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css';
 import Post from './Components/Post'
-import { db,auth } from './firebase'
+import { db, auth } from './firebase'
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Button from '@material-ui/core/Button';

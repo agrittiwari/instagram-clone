@@ -25,8 +25,7 @@ function Post({ user, postId, imageURL, username, caption })
                     setComments(snapshot.docs.map((doc) => doc.data()))
                 }
                 )
-   console.log(`fetched from db, ${comments} and the comment is ${[comments]} `)
-       }
+  }
         return () =>
         {
             unsubscribe()
